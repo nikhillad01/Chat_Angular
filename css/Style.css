@@ -1,0 +1,11 @@
+/*************************************************************************
+ *purpose   : CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+ * @file    : style.css
+ * @author  : sapna
+ * @version : 1.0
+ * @since   : 16/01/2019 
+ **********************************************************************/ 
+
+     body {
+    background-image: url("back.jpg");
+  }

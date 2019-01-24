@@ -1,0 +1,41 @@
+<head>
+        <link rel="stylesheet" type="text/css" href="../css/login.css">
+<style>
+body {
+    background-image: url("aircraft.png");
+}
+h1 {
+    color: rgb(192, 145, 17);
+}
+h3 {
+    color: rgb(192, 145, 17);
+}
+   </style>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<center>
+    <div>
+        <h1>Login </h1>
+       <form>
+        <div class="container">
+        <!-- <input class="form-control" id="focusedInput" type="text"> -->
+        Username:<input  type="text"  ng-model="email" placeholder="Enter username">
+        <br /><br />
+       <!-- binds the data to model(varibale) -->
+       
+        Password: <input  type="password"  ng-model="password" placeholder="Enter password">
+        <br><br>
+       
+        <input type='submit' class="btn btn-info active" value="login" ng-click="loginctrl()">
+        <div>
+            <br>
+            <a ui-sref="registration">Don't have account ? register here !!</a>
+        </div>
+</div>
+</div>
+</form>
+</center>

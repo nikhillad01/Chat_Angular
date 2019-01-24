@@ -1,0 +1,46 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+
+</head>
+<body ng-app="mainapp" >
+
+<!-- <h1 align="center">****Welcome****</h1> -->
+
+<style>
+     body {
+    background-image: url("aircraft.png");
+  
+  }
+  btn-xl {
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 10px;
+}
+</style>
+<center>
+<div>  
+        
+    <h3>Register Here!!</h3>
+    <form >
+    <div class="container"> 
+    Username :  <input type="text" ng-model="username" placeholder="username" ><br><br>
+   
+    E-mail ID: <input type="text" ng-model="email" placeholder="Email"><br><br>
+   
+    Password: <input type="password" ng-model="password" placeholder="Password" ><br><br>
+
+    <input type='submit'  id ="registerbtn" class="btn btn-success" value="Register" ng-click="registration()"><br>
+    <!-- ng-click method to check in controller -->
+    <h4>Already have an Account ?</h4>
+    <a ui-sref="login"> Login </a>  
+</div>
+
+</form>
+
+</center>
+
+</body>
